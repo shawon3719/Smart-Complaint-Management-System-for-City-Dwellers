@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shawon.scmanagement">
+
+    <uses-feature android:name="android.hardware.Camera2" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="Smart Complaint Management System"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.shawon.scmanagement.Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name="com.example.shawon.scmanagement.MainActivity"> </activity><meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyC4uyT8NnRxlbiYg0bDRgnn4C_gi4oznp8" />
+    </application>
+
+</manifest>

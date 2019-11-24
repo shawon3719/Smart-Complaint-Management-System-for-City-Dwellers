@@ -1,0 +1,134 @@
+
+
+
+
+    <ScrollView
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+
+        >
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.shawon.scmanagement.Main"
+            android:background="#FFF">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <EditText
+                android:background="@drawable/custometext"
+                android:hint="Title"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Title"
+                />
+            />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:text="Take Photo"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/button_capture"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/camimage"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginTop="10dp"
+
+                android:layout_width="match_parent"
+                android:text="Photo"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/camera_preview"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/pic2" />
+
+
+
+            <EditText
+
+                android:background="@drawable/custometext"
+                android:hint="Description"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Description" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:text="Location"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textSize="18sp" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/locationButton"
+                android:background="@drawable/locationimage"
+
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/Location" />
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/uploadButton"
+                android:text="Send"
+                android:background="#4A148C"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>

@@ -1,0 +1,104 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+
+
+    android:background="#fff"><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.shawon.university.Main">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/qw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Log In"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/logup" />
+
+            android:textStyle="normal|bold" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:id="@+id/edit"
+            android:hint="Email"
+            android:background="@drawable/custometext"
+            android:layout_marginLeft="10dp"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit2"
+            android:hint="Password"
+            android:background="@drawable/custometext"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:text="Log In"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+
+            android:id="@+id/button3"
+            android:background="#4A148C" />
+        <TextView
+            android:textColor="#fa0606"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx3"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_marginTop="50dp"
+            android:textColor="#4A148C"
+            android:text="Not registered yet?Click here"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx4"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

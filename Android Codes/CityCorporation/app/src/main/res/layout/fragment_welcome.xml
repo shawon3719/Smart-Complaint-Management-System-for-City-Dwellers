@@ -1,0 +1,48 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="#7ac8e2"
+
+
+    >
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.shawon.scmanagement.Main">
+
+        <!-- TODO: Update blank fragment layout -->
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/welcome" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="To"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="City Management"
+            android:layout_height="wrap_content"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/city2" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>
